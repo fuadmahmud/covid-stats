@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,17 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+a[disabled] {
+  pointer-events: none;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+ul,
+ol {
+  list-style: none;
 }
