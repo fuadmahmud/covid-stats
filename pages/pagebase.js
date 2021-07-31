@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import Header from "../components/Header/Header";
+import Head from "next/head";
+import Header from "../components/Header";
 
 function PageBase({ children }) {
   return (
@@ -10,9 +10,7 @@ function PageBase({ children }) {
       </Head>
       <main>
         <Header />
-        <div className="p-5">
-          {children}
-        </div>
+        <div className="p-5">{children}</div>
       </main>
     </div>
   );
