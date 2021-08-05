@@ -3,8 +3,6 @@ import Card from "../components/Card";
 export default function Vaccination(props) {
   const { data } = props;
   const latestData = data?.monitoring?.[data.monitoring.length - 1];
-  console.log(data);
-  console.log(latestData);
   return (
     <div>
       <span className="font-bold mb-8">
