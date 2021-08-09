@@ -5,17 +5,17 @@ function Header() {
     <header className="flex space-x-4 max-w bg-white shadow-md px-3 py-6">
       <div>
         <Link href="/">
-          <a>Home</a>
+          <a>Beranda</a>
         </Link>
       </div>
       <div>
         <Link href="/detail">
-          <a>Information</a>
+          <a>Informasi</a>
         </Link>
       </div>
       <div>
         <Link href="/vaccination">
-          <a>Vaccination</a>
+          <a>Vaksinasi</a>
         </Link>
       </div>
     </header>

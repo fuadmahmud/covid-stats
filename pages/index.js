@@ -28,8 +28,8 @@ export default function Home(props) {
   });
   return (
     <div>
+      <span className="font-bold text-3xl">Total Kasus di Indonesia</span>
       <Card>
-        <span className="font-bold">Total Kasus di Indonesia</span>
         <div className="flex justify-between items-center">
           <PieChart data={pieData} />
           <div>

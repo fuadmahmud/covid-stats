@@ -1,7 +1,28 @@
 function Footer() {
   return (
-    <div>
-      <p>Footer</p>
+    <div className="flex flex-col max-w bg-black p-4">
+      <span className="text-white font-bold">
+        Sumber, thanks to:&nbsp;
+        <a
+          className="text-primary"
+          href="https://cekdiri.id/vaksinasi/"
+          target="_blank"
+        >
+          Cekdiri.id,{" "}
+        </a>
+        <a
+          className="text-primary"
+          href="https://api.kawalcorona.com/indonesia"
+          target="_blank"
+        >
+          Kawalcorona.com
+        </a>
+      </span>
+      <span className="text-white my-2">
+        Disclaimer website ini dibuat dengan tujuan riset dan menyelesaikan
+        tugas akhir kuliah.
+      </span>
+      <span className="text-white my-2">Dibuat oleh: Deffa</span>
     </div>
   );
 }
