@@ -9,7 +9,7 @@ function Header() {
         </Link>
       </div>
       <div>
-        <Link href="/detail">
+        <Link href="/information">
           <a>Informasi</a>
         </Link>
       </div>

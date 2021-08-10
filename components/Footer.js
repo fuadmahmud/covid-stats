@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="flex flex-col max-w bg-black p-4">
       <span className="text-white font-bold">
-        Sumber, thanks to:&nbsp;
+        Sumber data, thanks to:&nbsp;
         <a
           className="text-primary"
           href="https://cekdiri.id/vaksinasi/"

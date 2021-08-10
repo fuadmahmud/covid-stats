@@ -8,6 +8,7 @@ module.exports = {
       sans: ['"IBM Plex Sans"', "sans-serif"],
     },
     textColor: {
+      blue: colors.blue,
       white: "#FFFFFF",
       primary: "#855CF8",
       dark: "#263238",
