@@ -25,9 +25,9 @@ function Detail({ data }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const snapshot = await firestore.collection("news").get();
-  const data = snapshot.docs.map(doc => doc.data());
+  const data = snapshot.docs.map(doc => doc.data()).reverse();
 
   return { props: { data } }
 }
