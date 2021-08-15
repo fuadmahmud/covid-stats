@@ -15,7 +15,7 @@ function Detail({ data }) {
               <span className="text-justify">{item.body}</span>
               <cite className="my-2 overflow-auto">
                 <span>Sumber: {" "}</span>
-                <a className="text-blue" href={item.source} target="_blank">{item.source}</a>
+                <a className="text-blue" href={item.source} target="_blank" rel="noreferrer">{item.source}</a>
               </cite>
             </article>
           </Card>

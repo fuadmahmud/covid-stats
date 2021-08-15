@@ -28,7 +28,7 @@ export default function Home(props) {
   });
   return (
     <div>
-      <span className="font-bold text-3xl">Total Kasus di Indonesia</span>
+      <span className="font-bold text-3xl">Total Kasus Covid19 di Indonesia</span>
       <Card>
         <div className="flex justify-between items-center">
           <PieChart data={pieData} />

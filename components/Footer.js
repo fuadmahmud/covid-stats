@@ -7,6 +7,7 @@ function Footer() {
           className="text-primary"
           href="https://cekdiri.id/vaksinasi/"
           target="_blank"
+          rel="noreferrer"
         >
           Cekdiri.id,{" "}
         </a>
@@ -14,6 +15,7 @@ function Footer() {
           className="text-primary"
           href="https://api.kawalcorona.com/indonesia"
           target="_blank"
+          rel="noreferrer"
         >
           Kawalcorona.com
         </a>
