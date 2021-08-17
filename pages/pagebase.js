@@ -6,7 +6,7 @@ function PageBase({ children }) {
   return (
     <div>
       <Head>
-        <title>Covid19 Tracker App</title>
+        <title>Statistik Covid19 Indonesia</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>

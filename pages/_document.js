@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#000000" />
           <meta
             name="description"
-            content="Covid 19 Statistic"
+            content="Statistik Covid19 di Indonesia terupdate"
           />
           <script
             async
