@@ -20,11 +20,6 @@ function Footer() {
           Kawalcorona.com
         </a>
       </span>
-      <span className="text-white my-2">
-        Disclaimer website ini dibuat dengan tujuan riset dan menyelesaikan
-        tugas akhir kuliah.
-      </span>
-      <span className="text-white my-2">Dibuat oleh: Deffa</span>
     </div>
   );
 }
